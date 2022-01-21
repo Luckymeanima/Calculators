@@ -1,4 +1,3 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -9,15 +8,16 @@
     <body>
         <h1>Age Calculator</h1>
         
-        <form action="age" method="">
+        <form action="age" method="post">
             <label for="age">Enter your age:</label>
             <input type="number" name="age" id="age">
-            <br>
-            <input type="submit" value="submit" name="Age next birthday">
             
+            <button type="submit">Age next birthday</button>
         </form>
            
         <p>${message}</p>
         
+        
+        <p><a href="arithmetic"> Arithmetic Calculator</p>
     </body>
 </html>
